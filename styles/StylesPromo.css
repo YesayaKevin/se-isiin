@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+#keranjang_kamu{
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #329AA0;
+}
+
+#prevbutton{
+    height: 1.5em;
+    width: 1.5em;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+hr{
+    height: 1px; 
+    background-image: linear-gradient(left, #f0f0f0, #ececec, #f0f0f0);
+}
+
+
+.icons{
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shopcart, #profile, #calendar, #confirm{
+    width: 50px;
+    height: 50px;
+}
+
+#sadface{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sadface{
+    width: 233px;
+    height: 233px;
+}
+
+.teks_info{
+   padding: 200px;
+   margin-bottom: 30px;
+}
+
+#sadly{
+    font-size: 28px;
+    text-align: center;
+}
+
+
+#alamat{
+    font-size: 35px;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 18px;
+}
+
+ .alamat_detail{
+    padding-left: 90px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #0B9AA4;
+    margin-bottom: 270px;
+}
+
+.teks_info{
+    display: flex;
+    justify-content: space-between;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#line_seperator2{
+    width: 90%;
+    margin: auto;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    color: #2C4F51;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#totalbayar{
+    padding-left: 90px;
+    font-size: 30px;
+    color: #0a737a;
+}
+
+#price_subtotal{
+    padding-right: 100px;
+    font-size: 30px;   
+}
+
+/* Button use */
+.button_gunakan{
+   width: 20%;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #42CDD6;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    right: 5rem;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+#use{
+    text-decoration: none;
+}
+
+#teksgunakan{
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+

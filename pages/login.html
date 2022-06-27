@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/Isiin-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Isi-In: Login</title>
+</head>
+<body>
+    <section class="container w-screen h-screen">
+        <div class="flex h-full">
+            <div class="flex-row w-1/2 h-full login-background">
+                <div class="upperDesign flex flex-col mt-12">
+                    <img class="mx-auto" src="../assets/Isiin-logo.png" alt="Isiin-logo.png">
+                    <h1 class="mx-auto font-bold text-7xl" style="color: #005922;">Isi-In</h1>
+                </div>
+                <div class="lowerDesign h-1/2 flex flex-col">
+                    <img class="h-full" src="../assets/login-image.png" alt="">
+                </div>
+            </div>
+            <div class="w-1/2 flex flex-col justify-around px-16">
+                <h1 class="text-7xl font-bold mx-auto" style="color: #0A737A;">Login</h1>
+                <input type="email" name="email" id="Email" class="py-4 px-2 my-6 text-xl rounded-2xl border border-color-isiin" placeholder="Enter your email">
+                <input type="password" name="password" id="Password" class="py-4 px-2 text-xl my-6 rounded-2xl border border-color-isiin" placeholder="Enter your password">
+                <button type="submit" class="text-white text-xl mt-48 font-bold py-2 rounded-2xl drop-shadow-xl" style="background-color: #0A737A"><a href="../home.html">Log In</a></button>
+                <a id="forgotPassword" href="../pages/forgot-password.html" class="mx-auto font-semibold text-xl mt-8" style="color: #0A737A;">Forgot your password?</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

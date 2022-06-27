@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+#keranjang_kamu{
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #329AA0;
+}
+
+#prevbutton{
+    height: 1.5em;
+    width: 1.5em;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+hr{
+    height: 1px; 
+    background-image: linear-gradient(left, #f0f0f0, #ececec, #f0f0f0);
+}
+  
+
+.icons{
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shopcart, #profile, #calendar, #confirm{
+    width: 50px;
+    height: 50px;
+}
+
+/*Terima Kasih*/
+#thanks{
+    font-size: 28px;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+}
+
+.teks_terimakasih{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+/*Detail Pesanan*/
+
+.Details{
+    background-color: #FCFFEA;
+    width: 80%;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #d4d5d8;
+}
+
+#detailpesanan{
+    color: #0A737A;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.infodetails{
+    padding-left: 30px;
+}
+
+#nomorinv, #totalpembayaran, #methodpembayaran, #jadwalpengiriman{
+    color: #0A737A;
+    font-size: 23px;
+}
+
+#invoice, #price, #bayar, #jadwal{
+    color:#0B9AA4;
+    font-size: 20px;
+}
+
+.invoicedetail, .paymentdetail, .paymentmethod, .pengirimandetail{
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mohon Menunggu*/
+#wait{
+    font-size: 28px;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+}
+
+.tunggu{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+
+/*footer*/
+
+.button_selesai{
+   width: 20%;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #42CDD6;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    right: 5rem;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#selesai{
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#teks_selesai{
+    text-decoration: none;
+}
+
+
+
+

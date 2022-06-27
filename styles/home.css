@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top_header, #bottom_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#top_header{
+    height: 75px;
+    display: flex;
+    align-items: space-between;
+    width: 100%;
+}
+
+#shopping, #profile{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#logo{
+    width: 75px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+#shopping{
+    padding-right: 25px;
+}
+
+#profile{
+    padding-right: 20px;
+}
+
+#search_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #ECECEC;
+    height: 30px;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 500px;  
+    align-items: space-between;
+}
+
+#search{
+    width: 20px;
+    height: 20px;
+    margin-left: 380px;
+    margin-top: 5px;
+}
+
+#search_text{
+    margin-left: 9px;
+    margin-top: 6px;
+    padding-left: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 0.5;
+    font-size: 10px;
+}
+
+#bottom_header{
+    height: 80px;
+}
+
+#logo_address{
+    width: 20px;
+    height: 25px;
+    padding-left: 130px;
+    padding-right: 15px;
+}
+
+#address{
+    padding-top: 3px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+}
+
+#promo{
+    height: 300px;
+    width: 100%;
+}
+
+#promo1{
+    padding-top: 20px;
+    display: flex;
+    align-content: center;
+    width: 50%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.products{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title, .product{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 100px;
+}
+
+.button{
+    padding-top: 6px;
+    padding-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.product{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first_img{
+    padding-top: 5px;
+    padding-left: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.sec_img{
+    padding-top: 5px;
+    padding-left: 40px;
+    width: 75px;
+    height: 100px;
+}
+
+.third_img{
+    padding-top: 5px;
+    padding-left: 50px;
+    width: 50px;
+    height: 100px;
+}
+
+.fourth_img{
+    padding-top: 5px;
+    padding-left: 40px;
+    width: 80px;
+    height: 100px;
+}
+
+.first_product, .sec_product, .third_product, .fourth_product{
+    height: 155px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #fff;
+    outline: 2px solid black;
+}
+
+.first_name, .sec_name, .third_name, .fourth_name{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#product_catalog{
+    padding-bottom: 100px;
+}

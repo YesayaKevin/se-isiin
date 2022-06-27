@@ -1,0 +1,212 @@
+/* LOGIN SECTION */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+@font-face {
+    font-family: IsiinFontReguler;
+    src: url(../fonts/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: IsiinFontBold;
+    src: url(../fonts/Sen-Bold.ttf);
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+}
+
+.header h2{
+    font-family: IsiinFontBold; 
+    color: #329AA0; 
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.iconHeader{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+td input{
+    margin-top: 20px;
+}
+
+.changeEmail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profileUserImage{
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.profileMenu{
+    font-family: IsiinFontBold; 
+    font-size: 20px;
+    color: #329AA0;
+    margin: 150px;
+}
+
+.profileSettingsMenu{
+    font-family: IsiinFontBold; 
+    font-size: 20px;
+    color: #329AA0;
+    margin: 50px;
+}
+
+.profileMenu p{
+    line-height: 50px;
+}
+
+
+.userInfo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInfo h5{
+    font-family: IsiinFontBold; 
+    color: #329AA0;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+.userInfo p{
+    font-family: IsiinFontReguler;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.divProfilePage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.divProfilePageSettings{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonProfileSettings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Maps{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.your-address{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px; 
+}
+.login-background{
+    background: linear-gradient(359.95deg, #42CDD6 13.16%, #8BD6DB 66.33%, #98D8DC 80.93%, #A6DADD 95.17%), #B56868;
+}
+.searchBar{
+    margin: 30px;
+}
+.buttonLanguangeSettings{
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: -200px;
+}
+.border-color-isiin{
+    border-color: #0A737A;
+}
+.languange{
+    margin-left: 100px;
+}
+.languange td{
+    padding: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-style: IsiinFontReguler;
+}
+.orderHistory{
+  display: flex;
+  background-color: #FAFAFA; 
+  box-shadow: 5px 10px #888888;
+  margin: 50px;
+  height: 150px;
+ 
+}
+.detailsOrderHistory p{
+    font-style: IsiinFontReguler;
+}
+.detailsOrderHistory{
+   line-height: 80px;
+}
+.priceOrderHistory{
+    margin-left: 1000px;
+    margin-top: 80px;
+}
+.contactUs{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.contactUsDesc{
+    background-image: url('../assets/bg.png');
+    width: 450px;
+    height: 350px;
+}
+.contactUsDesc p{
+   padding: 20px;
+   margin: 20px;
+}
+.socialMedia{
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+}
+.iconMostRight img{
+    margin-right: 200px;
+}
+.socialMedia div{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-blue:hover {
+    @apply bg-blue-700;
+  }

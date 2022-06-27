@@ -1,0 +1,277 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+#keranjang_kamu{
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #329AA0;
+}
+
+#prevbutton{
+    height: 1.5em;
+    width: 1.5em;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+hr{
+    height: 1px; 
+    background-image: linear-gradient(left, #f0f0f0, #ececec, #f0f0f0);
+}
+  
+
+.icons{
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#shopcart, #profile, #calendar, #confirm{
+    width: 50px;
+    height: 50px;
+}
+
+#pesanuntuk{
+    font-size: 35px;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+
+ .pesan_header{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #0B9AA4;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 15%;
+}
+
+/* Hari, Tanggal */
+
+.Jadwal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+#haritanggal{
+    color: #0A737A;
+    font-size: 30px;
+}
+
+#calendaricon{
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.schedule_header{
+   display: flex;
+   flex-direction: row;
+   justify-content: baseline;
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.schedule_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+#senin, #selasa, #rabu{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: #329AA0;
+    background-color: white;
+    width: 180%;
+    box-shadow: 5px 5px 10px #d4d5d8 ;
+}
+
+#selasa:active{
+    color: white ;
+    background-color: #329AA0;
+    width: 180%;
+    box-shadow: 5px 5px 10px #d4d5d8;
+}
+
+/* #selasa:hover{
+    color: white ;
+    background-color: #329AA0;
+    width: 180%;
+    box-shadow: 5px 5px 10px #d4d5d8;
+} */
+
+
+/* Jam */
+.Jam{
+    display: flex;
+    flex-direction: column;
+    margin-left: 27%;
+    margin-right: 0px;
+}
+
+#jam{
+    color: #0A737A;
+    font-size: 30px;
+}
+
+#clock{
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+}
+
+.jam_header{
+   display: flex;
+   flex-direction: row;
+   justify-content: baseline;
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.jam_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+#option1, #option2{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: #329AA0;
+    background-color: white;
+    width: 280%;
+    box-shadow: 5px 5px 10px #d4d5d8 ;
+}
+
+#option1:active{
+    color: white ;
+    background-color: #329AA0;
+    width: 280%;
+    box-shadow: 5px 5px 10px #d4d5d8;
+}
+
+/* #option1:hover{
+    color: white ;
+    background-color: #329AA0;
+    width: 280%;
+    box-shadow: 5px 5px 10px #d4d5d8;
+} */
+
+/*Perhatian*/
+
+p{
+    font-size: 25px;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+
+
+/*footer*/
+.amount_price{
+    display: flex;
+    justify-content: space-between;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#price{
+    padding-right: 90px;
+    font-size: 30px;
+}
+
+
+#line_seperator2{
+    width: 90%;
+    margin: auto;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    color: #2C4F51;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#totalbayar{
+    padding-left: 90px;
+    font-size: 30px;
+    color: #0a737a;
+}
+
+#price_subtotal{
+    padding-right: 100px;
+    font-size: 30px;   
+}
+
+
+.button_lanjut{
+   width: 20%;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #42CDD6;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    right: 5rem;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#tekslanjut{
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#next{
+    text-decoration: none;
+}
+
+
+
+
